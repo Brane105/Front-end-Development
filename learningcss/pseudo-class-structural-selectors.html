@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:first-letter{
+            font-size: 2em;
+        }
+        *::first-line{
+            color: olive;
+            font-style: italic;
+        }
+
+        /*unvisited link pseudo class selector*/
+        a:link{
+              background-color: aqua;
+        }
+
+        /*visited links*/
+        a:visited{
+            background-color:antiquewhite;
+        }
+        /**/
+         /*universal selector
+        *{
+            border: 1px solid black;
+        }*/
+        a:hover{
+            background-color: yellow;
+            font-style: italic;
+            cursor:grab;
+        }
+        /*active pseudo class*/
+        /*hover and active psuedo can be applied on every class, attributes and elements*/
+        a:active{
+            background-color: black;
+        }
+        /*active and hover go hand in hand its good to either use hover or active */
+
+    </style>
+</head>
+<body>
+    <h1 id="intro">Some Heading</h1>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium excepturi ut vel recusandae molestias eligendi assumenda in. 
+        <a href="Https://www.google.com/" target="_blank">google.com</a>
+        <span>span1</span>
+        <a href="https://www.facebook.com/" id="facebook">facebook.com</a>
+        <span>Span2 </span>
+        Accusantium autem, modi quae fugit repudiandae quis odit sapiente corporis ipsa, quia blanditiis.
+    </p>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quidem? Rerum quasi 
+        delectus eveniet possimus nobis temporibus ipsum debitis deserunt, modi inventore sapiente ullam ut cum, aliquam harum totam eum!
+    </p>
+    <div class="x">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quos eum voluptatibus similique temporibus 
+        et esse molestias iste. Necessitatibus, nobis ex? Nam nihil debitis illum repellendus ab voluptatibus dolore quibusdam.
+    </div>
+    <p class="x">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptatum a ipsa non optio
+         explicabo esse quisquam reiciendis id totam nostrum, maxime ducimus mollitia rem beatae accusantium aut itaque distinctio.
+    </p>
+</body>
+</html>
