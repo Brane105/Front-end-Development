@@ -4,4 +4,5 @@ Front end development : i m learning front end development
 2. css
 3. javascript
 4. .node
-5. angularjs.
+5. Typescript
+6. angularjs.
