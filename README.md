@@ -6,3 +6,4 @@ Front end development : i m learning front end development
 4. .node
 5. Typescript
 6. angularjs.
+7. MySQL
