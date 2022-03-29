@@ -9,3 +9,4 @@ Front end development : i m learning front end development
 7. MySQL.
 8. Mongodb
 9. postman.
+10. CRUD operations
