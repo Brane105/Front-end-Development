@@ -10,4 +10,4 @@ Front end development : i m learning front end development
 8. Mongodb
 9. postman.
 10. CRUD operations
-11. Angular
+11. Angular cli
