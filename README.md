@@ -11,4 +11,4 @@ Front end development : i m learning front end development
 9. postman.
 10. CRUD operations
 11. Angular cli
-12. 
+12. Dev Ops 
