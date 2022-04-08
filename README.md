@@ -13,4 +13,3 @@ Front end development : i m learning front end development
 11. Angular cli
 12. Dev Ops 
 13. Git github
-.
