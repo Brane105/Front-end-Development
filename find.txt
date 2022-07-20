@@ -1,0 +1,59 @@
+ 
+ 
+ dummy arrays example :
+ draft_arr[0:{x:"abc",y:"comapny1"},1:{x:"bds",y:"comapny2"},2:{x:"dbc",y:"comapny3"}]
+ series: [{
+        name: "Pending For Creation",
+        data: draft_arr,
+        color:"#000000"
+      },{
+        name: "Created",
+        data: created_arr,
+        color:'#FF0000'
+      },{
+        name: "Execution In Progress",
+        data: execution_arr,
+        color:'#FFAE42'
+      },
+      {
+        name: "Completed",
+        data: completed_arr,
+        color:'#28a745'
+      }],
+      chart: {
+        height: 350,
+        type: 'scatter',
+        zoom: {
+          enabled: true,
+          type: 'xy'
+        },
+      },
+      xaxis: {
+        type: 'category',
+        //tickAmount: 10,
+        categories: plant_arr,
+      },
+      yaxis:
+        {
+          //type: 'category',
+          // tickAmount:1,
+          // categories : opr_no_arr,
+          labels: {
+            maxWidth: "auto",
+            formatter: (val : string, index) => opr_no_arr[index],
+          },
+          title: {
+            text: "OPR",
+            style: {
+              colors: "#000000"
+            }
+          }
+        },
+      legend: {
+        position: "top",
+        horizontalAlign: "right"
+      }
+    };
+    this.first_chartRef = new ApexCharts(document.getElementById('first'), chartOptions);
+    this.first_chartRef.render();
+ }
