@@ -1,7 +1,9 @@
  
  
  dummy arrays example :
- draft_arr[0:{x:"abc",y:"comapny1"},1:{x:"bds",y:"comapny2"},2:{x:"dbc",y:"comapny3"}]
+ draft_arr = [0:{x:"abc",y:"comapny1"},1:{x:"bds",y:"comapny2"},2:{x:"dbc",y:"comapny3"}]
+ Pending For Creation = [0:{x:"abc",y:"comapny1"},1:{x:"bds",y:"comapny2"},2:{x:"dbc",y:"comapny3"}]
+ Created = [0:{x:"abc",y:"comapny1"},1:{x:"bds",y:"comapny2"},2:{x:"dbc",y:"comapny3"}]
  series: [{
         name: "Pending For Creation",
         data: draft_arr,
